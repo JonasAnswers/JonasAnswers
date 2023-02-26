@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm245-bb-12-job598.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=3b28d901624046007246896940152d9e');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Climate Crisis', cursive;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.header {
+    background-color: transparent;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    backdrop-filter: blur(2px);
+    font-family: 'Climate Crisis', cursive;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    color: #336699;
+}
+
+.content {
+    margin: 50px auto;
+    width: 80%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: beige;
+}
+
+.box {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e8e8cf;
+}
+
+.box h3 {
+    color: #336699;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Add styles for the circle */
+.circle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color:rgba(255, 255, 255, 0.058);
+    backdrop-filter: blur(15px);
+    z-index: -3;
+    display: none;
+  }
+
+  .boximg {
+    border-radius: 5px;
+    position: relative;
+    align-items: center;
+  }
